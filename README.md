@@ -7,7 +7,8 @@ The model used in this repository is from [here](https://colab.research.google.c
 ### Run the application
 You can run the app either using <br>
 - `python3 wsgi.py` (for development) or using <br>
-- `gunicorn --bind 0.0.0.0:5000 wsgi:app` (for production)
+- `gunicorn --bind 0.0.0.0:5000 wsgi:app` (for production)<br>
+and `CTRL + C` to stop it<br>
 
 ### Endpoints
 You can access the app on
